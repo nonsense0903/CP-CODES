@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <conio.h>
 int gcd(int p, int q) {
     int remainder = p - (p / q * q);
     if (remainder == 0)
@@ -21,4 +21,5 @@ int main() {
     printf("GCD of %d and %d is %d\n", a, b, g);
 
     return 0;
+
 }
