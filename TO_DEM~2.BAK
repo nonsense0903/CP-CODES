@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main()
+{
+    float x, y;
+    int a, b, sum, diff, product, quotient, remainder, and, or, m, n;
+    printf("Enter the First number\n");
+    scanf("%d", &a);
+    printf("Enter the Second Number\n");
+    scanf("%d", &b);
+    sum = a + b;
+    printf("The Sum of the Numbers is %d\n", sum);
+    diff = a - b;
+    printf("The Difference is %d\n", diff);
+    product = a * b;
+    printf("The Product is %d\n", product);
+    quotient = a / b;
+    printf("The Quotient is %d\n", quotient);
+    remainder = a % b;
+    printf("The Remainder is %d\n", remainder);
+    printf("Size of a is %d bytes\n", sizeof(a));
+    printf("Size of b is %d bytes\n", sizeof(b));
+    x = 10,7;  
+    y = -x;
+    printf("Using Unary Operator value of y is %f\n", y);
+
+    or = (a > b) ? a : b;
+    printf("Using Ternary Operator Greater Number is %d\n", or);
+
+    printf("Enter another First number for Logical Operation\n");
+    scanf("%d", &m);
+
+    printf("Enter another Second number for Logical Operation\n");
+    scanf("%d", &n);
+
+    and = (a > b) && (m < n);
+    printf("Logical AND Operation result is %d\n", and);
+
+    return 0;
+}
