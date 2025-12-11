@@ -22,8 +22,9 @@ average=(float)sum/3;
 printf("\nSum of three integers %2f", sum);
 printf("\nAverage of three integers %2f", average);
 printf("\nSingle character");
-printf("\nString of character is");
 putchar(d);
+printf("\nString of character is");
 puts(str);
 return 0;
+
 }
